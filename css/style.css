@@ -1,0 +1,87 @@
+
+/*Codigo padrão*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*fim Codigo padrão*/
+
+
+/*Iniciando codificação*/
+
+
+.sound{
+    display: none;
+}
+
+.section-alarme{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cronometro{
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(73, 8, 64);
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px 1px rgb(73, 8, 64);
+}
+
+.cronometro h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.cronometro select{
+    margin: 10px 25%;
+    padding: 10px 0;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.bnt{
+    margin: 20px 25% 10px 25%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 178, 233);
+    font-size: 18px;
+    font-style: italic;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.bnt:hover{
+    background-color:  rgb(46, 169, 231);
+}
+
+.display{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.section-alarme p{
+    margin-top: 70px;
+}
